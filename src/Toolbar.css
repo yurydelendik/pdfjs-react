@@ -1,0 +1,32 @@
+.Toolbar {
+    position: fixed;
+    right: 40px;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+    background-color:#222;
+    border: 2px solid #888;
+    border-radius: 7px;
+    padding: 2px;
+    z-index: 10;
+}
+
+.Toolbar > .ZoomIn,
+.Toolbar > .ZoomOut {
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #FE8;
+    width: 32px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin: 2px;
+}
+
+.Toolbar > .ZoomPercent {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin: 2px;
+}
